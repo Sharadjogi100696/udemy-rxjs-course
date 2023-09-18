@@ -70,6 +70,8 @@ click$.subscribe((val) => {
 });
 ```
 
+## concat operator
+
 ```js
 const a$ = of(1, 2, 3);
 const b$ = of(4, 5, 6);
