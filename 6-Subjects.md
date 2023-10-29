@@ -69,6 +69,7 @@ setTimeout(() => {
 
 - waits until it is completed
 - it also has the memory, post subscriptions will also receive the completed value
+- it returns the value just before the complete()
 
 ```js
 const sub = new AsyncSubject();
