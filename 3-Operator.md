@@ -96,11 +96,13 @@ const merged$ = merge(timer1$, timer2$);
 
 When we create new observable from the values of an observable and concat in a order
 
-Generally should be used to save the form data
+Generally should be used to save the form data. When we click on save 3 times, and if we use normal map, three http calls will be requested but with the help of concat map, we are waiting for the first request to complete.
 
 ```js
 fromEvent(document, "click").pipe(concatMap((x) => of(1, 2)));
 ```
+
+
 
 ## mergeMap operator (dependency on other)
 
