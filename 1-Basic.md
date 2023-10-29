@@ -2,6 +2,7 @@
 
 - callback functions which can be called
 - Stream of values are emitted from click events, setInterval, setTimeout, etc
+- RxJS is blue print of the stream
 
 ### Examples:
 
