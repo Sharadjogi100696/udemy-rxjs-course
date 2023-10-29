@@ -1,6 +1,7 @@
 # RxJS subject
 
-subject can be treated as observable as well as observer
+- subject can be treated as observable as well as observer
+- subject.asObservale() is just a derived state of subject.
 
 ```js
 const sub = new Subject();
